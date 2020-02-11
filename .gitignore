@@ -1,0 +1,7 @@
+/vendor/
+/web/*.*
+/web/core/
+/web/modules/contrib/
+/web/profiles/contrib/
+/web/themes/contrib/
+/web/sites

@@ -1,0 +1,20 @@
+name: wco
+recipe: drupal8
+config:
+  webroot: web
+env_file:
+  - .lando.env
+services:
+  appserver:
+    build:
+      - composer install -q
+tooling:
+  drush:
+    service: appserver
+    cmd: drush --root=/app/web
+  drupal:
+    service: appserver
+    cmd: drupal --root=/app/web
+  install:
+    service: appserver
+    cmd: drush si --root=/app/web --account-pass=admin --existing-config -y
