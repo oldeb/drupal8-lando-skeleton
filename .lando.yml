@@ -1,4 +1,4 @@
-name: wco
+name: drupal8
 recipe: drupal8
 config:
   webroot: web
@@ -7,7 +7,7 @@ env_file:
 services:
   appserver:
     build:
-      - composer install -q
+      - echo "Composer install ..." && composer install -q
 tooling:
   drush:
     service: appserver
@@ -17,4 +17,4 @@ tooling:
     cmd: drupal --root=/app/web
   install:
     service: appserver
-    cmd: drush si --root=/app/web --account-pass=admin --existing-config -y
+    cmd: ./scripts/install.sh

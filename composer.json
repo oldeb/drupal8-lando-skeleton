@@ -21,6 +21,7 @@
         "drush/drush": "^10.2"
     },
     "require-dev": {
+        "drupal/console": "^1.9"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -42,7 +43,7 @@
               "[web-root]/modules/README.txt": false,
               "[web-root]/profiles/README.txt": false,
               "[web-root]/sites/default/default.settings.php": {
-                "append": "assets/scaffold/files/default.settings.php"
+                "append": "assets/scaffold/files/default.settings.txt"
               },
               "[web-root]/sites/README.txt": false,
               "[web-root]/themes/README.txt": false,
