@@ -11,3 +11,7 @@ fi
 
 # Install website.
 drush si --root=/app/web --account-pass=$DRUPAL_ADMIN_PASSWORD --existing-config -y
+
+# Reset permissions so composer do not crash when scaffolding.
+# https://www.drupal.org/project/drupal/issues/3091285
+chmod u+w /app/web/sites/default
