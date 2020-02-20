@@ -11,10 +11,13 @@ services:
 tooling:
   drush:
     service: appserver
-    cmd: drush --root=/app/web
+    cmd: drush
   drupal:
     service: appserver
     cmd: drupal --root=/app/web
   install:
     service: appserver
     cmd: ./scripts/install.sh
+  update:
+    service: appserver
+    cmd: ./scripts/update.sh
