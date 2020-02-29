@@ -7,6 +7,11 @@ A project skeleton for Drupal 8 using [Lando](https://docs.lando.dev/basics/)
 - Start the containers using the command `lando start`
 - Install Drupal using the command `lando install`
 
+## Drupal credentials
+
+username: admin
+password: admin
+
 ## Tooling
 
 ### Composer
