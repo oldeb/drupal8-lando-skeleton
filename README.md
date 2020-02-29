@@ -1,6 +1,6 @@
 # Drupal 8 Lando skeleton
 
-A project skeleton for Drupal 8 using [Lando](https://docs.lando.dev/basics/)
+A project skeleton for Drupal 8 using [Lando](https://docs.lando.dev/basics/installation.html)
 
 ## Installation
 
