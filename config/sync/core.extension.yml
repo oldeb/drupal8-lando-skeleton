@@ -1,5 +1,6 @@
 module:
-  automated_cron: 0
+  admin_toolbar: 0
+  admin_toolbar_tools: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -18,25 +19,20 @@ module:
   field_ui: 0
   file: 0
   filter: 0
-  help: 0
-  history: 0
   image: 0
   link: 0
   menu_ui: 0
   node: 0
   options: 0
-  page_cache: 0
   path: 0
   path_alias: 0
   quickedit: 0
   rdf: 0
   search: 0
-  shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
   toolbar: 0
-  tour: 0
   update: 0
   user: 0
   views_ui: 0
