@@ -1,7 +1,18 @@
+# Composer libraries
 /vendor/
+
+# Drupal files
 /web/*.*
 /web/core/
+/web/libraries/
 /web/modules/contrib/
 /web/profiles/contrib/
 /web/themes/contrib/
 /web/sites
+
+# IDE files
+.idea
+.vscode
+
+# Ignore .env files as they are personal
+.env
