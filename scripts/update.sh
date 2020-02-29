@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
+# Install new dependencies.
+composer install -q -d /app
+
 # Apply database updates if needed.
 drush updb -y
 

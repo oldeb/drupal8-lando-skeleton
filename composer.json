@@ -64,5 +64,8 @@
             "web/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
         }
+    },
+    "scripts": {
+        "pre-autoload-dump": "./scripts/fix-perms.sh"
     }
 }

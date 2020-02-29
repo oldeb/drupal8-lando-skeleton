@@ -11,7 +11,3 @@ fi
 
 # Install website.
 drush si --existing-config -y
-
-# Reset permissions so composer do not crash when scaffolding.
-# https://www.drupal.org/project/drupal/issues/3091285
-chmod u+w /app/web/sites/default
