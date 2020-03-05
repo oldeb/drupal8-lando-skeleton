@@ -9,8 +9,8 @@ A project skeleton for Drupal 8 using [Lando](https://docs.lando.dev/basics/inst
 
 ## Drupal credentials
 
-username: admin
-password: admin
+- **username**: `admin`
+- **password**: `admin`
 
 ## Tooling
 
