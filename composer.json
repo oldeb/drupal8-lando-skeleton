@@ -46,6 +46,7 @@
               "[web-root]/sites/default/default.settings.php": {
                 "append": "assets/scaffold/files/default.settings.txt"
               },
+              "[web-root]/sites/default/settings.local.php": "assets/scaffold/files/settings.local.txt",
               "[web-root]/sites/README.txt": false,
               "[web-root]/themes/README.txt": false,
               "[web-root]/.ht.router.php": false,
