@@ -1,1 +1,6 @@
 $settings['config_sync_directory'] = '../config/sync';
+
+$settings['trusted_host_patterns'] = [
+  '^'.getenv('LANDO_APP_NAME').'\.lndo\.site$',      # lando proxy access
+  '^localhost$',                                     # localhost access
+];
