@@ -1,6 +1,11 @@
-# Drupal 8 Lando skeleton
+# Drupal 9 Lando skeleton
 
-A project skeleton for Drupal 8 using [Lando](https://docs.lando.dev/basics/installation.html)
+A project skeleton for Drupal 9 using [Lando](https://docs.lando.dev/basics/installation.html)
+
+## Known issues
+
+- Currently using the `drupal8` lando recipe while the [Drupal 9 recipe is still in beta](https://docs.lando.dev/config/drupal9.html)
+- Drupal Console is not available yet for Drupal 9 (composer incompatibilities)
 
 ## Installation
 
@@ -34,6 +39,3 @@ Edit the `/scripts/update.sh` file to change that behavior.
 
 ### Drush
   example: `lando drush cr`
-
-### Drupal console
-  example: `lando drupal gm`
